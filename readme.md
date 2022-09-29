@@ -16,8 +16,7 @@
 
 > Recommend site to search and explore asn :
 
-* [IPINFO.IO](https://ipinfo.io/countries)
-* [ASN.IPINFO.APP](https://asn.ipinfo.app/)
+* [IPINFO](https://ipinfo.io/countries)
 
 ## Proof
 
