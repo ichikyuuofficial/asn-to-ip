@@ -2,7 +2,7 @@
 THIS TOOL IS OPEN SOURCE AND FREE TO USE . NOT FOR SALE !!
 DONT REMOVE THIS CREDIT IF YOU ARE A GOOD MANNERS PROGRAMMER
 
-# Coded by : D K .
+# Coded by : YTTA
 # Github : https://github.com/1qtofc
 # Created : Sat , 28 Sep 2022 20:57
 
