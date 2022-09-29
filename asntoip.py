@@ -48,9 +48,9 @@ def main():
     for i in asn:
         # get length of result ip
         if len(list(asnToIP(i))) > 0:
-            print(Fore.GREEN + f'[+] ASN : {i} -> {len(list(asnToIP(i)))} IP' + Fore.RESET)
+            print(Fore.GREEN + f'[+] ASN : {i} -> {len(list(asnToIP(i)))} IPs' + Fore.RESET)
         elif len(list(asnToIP(i))) == 0:
-            print(Fore.RED + f'[+] ASN : {i} -> {len(list(asnToIP(i)))} IP' + Fore.RESET)
+            print(Fore.RED + f'[+] ASN : {i} -> {len(list(asnToIP(i)))} IPs' + Fore.RESET)
 
         # write to file
         if not os.path.exists('resultasn'):
@@ -62,7 +62,7 @@ def main():
                 
     # remove duplicate
     removeduplicate(f'resultasn/{fn}.txt')
-    print(Fore.MAGENTA + f'\n[+] Remove Duplicate Done ! -> {len(open(f"resultasn/{fn}.txt", "r").readlines())} IP' + Fore.RESET)
+    print(Fore.MAGENTA + f'\n[+] Remove Duplicate Done ! -> {len(open(f"resultasn/{fn}.txt", "r").readlines())} IPs' + Fore.RESET)
                 
 
 
