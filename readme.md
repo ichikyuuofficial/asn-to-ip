@@ -14,9 +14,9 @@
 
 ## Explore
 
-> Recommend Site to search and explore asn :
+> Recommend site to search and explore asn :
 
-* [IPINFO](https://ipinfo.io/countries)
+* [IPINFO.IO](https://ipinfo.io/countries)
 
 ## Proof
 
