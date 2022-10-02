@@ -29,6 +29,8 @@ def asnToIP(asn):
 
     # New api
     # r = requests.get(f'https://asn.ipinfo.app/list/${asn}').json()
+    
+    
     r = requests.get(f'https://api.bgpview.io/asn/{asn}/prefixes').json()
     data = r['data']['ipv4_prefixes']
     
