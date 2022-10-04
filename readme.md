@@ -2,6 +2,7 @@
 
 > THIS TOOL IS USED FOR SEARCH IP ADDRESS AND IP RANGES BY [ASN](https://www.iplocation.net/asn) .
 
+> IF PROCESS STUCK , DONT STOP !! IT MEAN THE PROGRAM GET A LOT OF IP
 ## How to use
 
 ```markdown
