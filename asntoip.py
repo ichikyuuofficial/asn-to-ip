@@ -26,9 +26,8 @@ def removeduplicate(path):
 
 
 def asnToIP(asn):
-
-    # another api
-    # r = requests.get(f'https://asn.ipinfo.app/list/{asn}').json()
+    
+    # new api = https://asn.ipinfo.app/api/json/details/AS9341
 
     r = requests.get(f'https://api.bgpview.io/asn/{asn}/prefixes').json()
     data = r['data']['ipv4_prefixes']
