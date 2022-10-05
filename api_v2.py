@@ -36,9 +36,11 @@ def asnToIP(asn):
             iplist = ipranges.IP4Net(pre)
             for ip in iplist:
                 yield ip
-            
-        elif res['type'] == 6:
-            continue
+        
+        # Its no needed :P
+        
+        # elif res['type'] == 6:
+        #     continue
         
 
 def main():
