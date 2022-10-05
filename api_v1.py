@@ -26,8 +26,6 @@ def removeduplicate(path):
 
 
 def asnToIP(asn):
-    
-    # new api = https://asn.ipinfo.app/api/json/details/AS9341
 
     r = requests.get(f'https://api.bgpview.io/asn/{asn}/prefixes').json()
     data = r['data']['ipv4_prefixes']
@@ -78,6 +76,6 @@ if __name__ == '__main__':
  | (_| \__ \ | | | | || (_) | | | |_) |
   \__,_|___/_| |_|  \__\___/  |_| .__/ 
                                 | |    
-    Update : 28-09-2022         |_|        
+    Update : 28-09-2022         |_|  v1.0      
     ''')
     main()
