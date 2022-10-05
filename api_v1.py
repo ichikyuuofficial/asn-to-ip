@@ -36,6 +36,7 @@ def asnToIP(asn):
         iplist = ipranges.IP4Net(pre)
         for ip in iplist:
             yield ip
+            
 
 def main():
 
