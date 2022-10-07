@@ -37,10 +37,8 @@ def asnToIP(asn):
             for ip in iplist:
                 yield ip
         
-        # Its no needed :P
-        
-        # elif res['type'] == 6:
-        #     continue
+        elif res['type'] == 6:
+            continue
         
 
 def main():
