@@ -6,7 +6,7 @@
 ## How to use
 
 ```markdown
-- git clone https://github.com/1qtofc/asn-to-ip
+- git clone https://github.com/ichikyuuofficial/asn-to-ip
 - cd asn-to-ip
 - pip install -r requirements.txt
 - Explore and add asn to asn.txt and then save it
