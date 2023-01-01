@@ -1,8 +1,8 @@
 ## Important !
 
 > THIS TOOL IS USED FOR SEARCH IP ADDRESS AND IP RANGES BY [ASN](https://www.iplocation.net/asn) .
-
 > IF PROCESS STUCK , DONT STOP !! IT MEAN THE PROGRAM GET A LOT OF IP
+
 ## How to use
 
 ```markdown
@@ -10,7 +10,7 @@
 - cd asn-to-ip
 - pip install -r requirements.txt
 - Explore and add asn to asn.txt and then save it
-- python asntoip.py
+- python api_v1.py or python api_v2.py
 ```
 
 ## Explore
